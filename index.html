@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SHAN X GAMING</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+            135deg,
+            #031b22,
+            #07535c,
+            #0b8890,
+            #031b22
+        );
+        overflow: hidden;
+    }
+
+    .background-glow {
+        position: fixed;
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background: #00ffff;
+        filter: blur(150px);
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 430px;
+        text-align: center;
+        padding: 35px 25px;
+        border-radius: 28px;
+
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(15px);
+
+        border: 1px solid rgba(255, 255, 255, 0.2);
+
+        box-shadow:
+            0 0 40px rgba(0, 255, 255, 0.3);
+
+        color: white;
+    }
+
+    .logo {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+
+        border: 5px solid #00eaff;
+
+        box-shadow:
+            0 0 25px #00eaff,
+            0 0 50px rgba(0, 234, 255, 0.5);
+
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .welcome {
+        color: #00eaff;
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: #dddddd;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .subscribe {
+        display: inline-block;
+        width: 100%;
+        padding: 17px;
+
+        background: #ff0000;
+        color: white;
+
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+
+        border-radius: 14px;
+
+        transition: 0.3s;
+
+        box-shadow:
+            0 5px 20px rgba(255, 0, 0, 0.4);
+    }
+
+    .subscribe:hover {
+        transform: scale(1.05);
+        background: #cc0000;
+    }
+
+    .subscribe:active {
+        transform: scale(0.96);
+    }
+
+    .youtube {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #aaa;
+    }
+
+    .yt-icon {
+        color: red;
+        font-size: 22px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<div class="card">
+
+    <!-- CHANNEL LOGO -->
+    <img
+        src="1000052390.jpg"
+        class="logo"
+        alt="Channel Logo"
+    >
+
+    <!-- CHANNEL NAME -->
+    <h1>SHAN X GAMING</h1>
+
+    <div class="welcome">
+        Welcome to my YouTube Channel!
+    </div>
+
+    <p>
+        Subscribe to our channel for amazing gaming videos,
+        Minecraft content, entertainment and much more!
+    </p>
+
+    <!-- SUBSCRIBE BUTTON -->
+    <a
+        class="Subscribe"
+        href="https:youtube.com/@ShanXGaming8"
+        target="_blank"
+    >
+        ▶ SUBSCRIBE NOW
+    </a>
+
+    <div class="youtube">
+        🔴 Follow us on YouTube
+    </div>
+
+</div>
+
+</body>
+</html>
